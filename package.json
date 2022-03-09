@@ -1,6 +1,5 @@
 {
-  "name": "template-initial-config-next",
-  "version": "1.0.0",
+  "name": "portifolio-curriculo-nextjs",
   "private": true,
   "scripts": {
     "dev": "next dev",
