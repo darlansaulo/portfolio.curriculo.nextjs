@@ -1,9 +1,9 @@
-{
+module.exports = {
     "env": {
        "development": {
           "plugins": [
              [
-                "styled-components",
+                "babel-plugin-styled-components",
                 { "ssr": true, "displayName": true, "preprocess": false }
              ]
           ],
@@ -12,7 +12,7 @@
        "production": {
           "plugins": [
              [
-                "styled-components",
+                "babel-plugin-styled-components",
                 { "ssr": true, "displayName": true, "preprocess": false }
              ]
           ],
@@ -21,8 +21,8 @@
     },
     "plugins": [
        [
-          "styled-components",
+          "babel-plugin-styled-components",
           { "ssr": true, "displayName": true, "preprocess": false }
        ]
     ]
- }
+}
