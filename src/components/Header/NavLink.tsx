@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { NavLinkContainer } from './styles';
 import { useToasts } from 'react-toast-notifications';
+import { NavLinkContainer } from './styles';
+
 
 interface Props {
   title: string;
@@ -14,11 +15,9 @@ export default function NavLink({ title, path, flag }: Props) {
   const router = useRouter();
   const isActive = router.pathname === path;
 
-  function teste() {
+  function flagAddToast() {
     if (flag === true) {
       return addToast('EM MANUTENÇÃO!!!', { appearance: 'info' });
-    } else {
-      return null;
     }
   }
 
@@ -26,7 +25,7 @@ export default function NavLink({ title, path, flag }: Props) {
     <NavLinkContainer isActive={isActive}>
       <Link href={path}>
         
-        <button onClick={teste}>{title}</button>
+        <button onClick={flagAddToast}>{title}</button>
       </Link>
     </NavLinkContainer>
   );

@@ -1,3 +1,4 @@
+import { darken } from 'polished';
 import styled from 'styled-components';
 
 export const Container = styled.section`
@@ -17,6 +18,30 @@ export const Container = styled.section`
       gap: 2rem;
     }
   }
+
+  > button {
+    background: ${({ theme }) => theme.primary};
+    padding: .8rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.5s;
+
+    &:hover {
+      background: ${({ theme }) => darken(0.05, theme.primary)};
+    }
+
+    a {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+
+    @media (max-width: 640px){
+        padding: 0.5rem;
+        
+    }
+  }
 `;
 
 export const ProjetoContainer = styled.div`
@@ -33,7 +58,7 @@ export const ProjetoContainer = styled.div`
       }
 
       .overlay {
-        opacity: 0.56;
+        opacity: 0.70;
       }
     }
 
@@ -106,7 +131,7 @@ export const ProjetoContainer = styled.div`
     &:hover {
       > section {
         div.text {
-          left: -13rem;
+          left: -15rem;
         }
       }
     }

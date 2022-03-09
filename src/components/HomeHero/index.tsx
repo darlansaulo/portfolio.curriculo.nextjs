@@ -1,5 +1,18 @@
-import { Container, TextContainer, CodeItem, InfoContainer, ImgContainer } from './styles';
+import { BsLinkedin, BsWhatsapp, BsEnvelopeOpen, BsGithub} from 'react-icons/bs';
 import Image from 'next/image';
+import Link from 'next/link';
+
+import {
+  Container,
+  TextContainer,
+  CodeItem,
+  InfoContainer,
+  ImgContainer,
+} from './styles';
+
+
+
+
 
 
 function HomeHero() {
@@ -13,7 +26,7 @@ function HomeHero() {
           height="25"
           className="fontClass"
         />
-        
+
         <Image
           src={'/assets/logo_github.svg'}
           alt="Imagem exemplo"
@@ -42,7 +55,7 @@ function HomeHero() {
           height="25"
           className="fontClass"
         />
-    
+
         <Image
           src={'/assets/logo_html5-2.svg'}
           alt="Imagem exemplo"
@@ -50,7 +63,6 @@ function HomeHero() {
           height="40"
           className="fontClass"
         />
-
 
         <Image
           src={'/assets/logo_reactjs-2.svg'}
@@ -134,6 +146,43 @@ function HomeHero() {
             <span className="textMargin1">{'\u007D'}</span>
             <div></div>
             {'\u007D'}
+          </CodeItem>
+          <CodeItem>
+            <span className="comment">//Contato</span>
+            <span className="purple">SocialMedia</span> {`= ${'\u007B'}`}
+            <div>
+                 <ul className=''>
+                   <li className=''>
+                     <Link href={`https://wa.me/5527997588583`} passHref>
+                          <a target="_blank">
+                              <BsWhatsapp />
+                          </a>
+                     </Link>
+                   </li>
+                   <li className=''>
+                    <Link href={`https://github.com/darlansaulo`} passHref>
+                          <a target="_blank">
+                              <BsGithub />
+                          </a>
+                    </Link>
+                   </li>
+                      <li className=''>
+                          <Link href={`https://www.linkedin.com/in/darlansaulo/`} passHref>
+                              <a target="_blank">
+                                  <BsLinkedin />
+                              </a>
+                          </Link>
+                      </li>
+                      <li className=''>
+                          <Link href={`mailto: darlansaulo@gmail.com`} passHref>
+                              <a target="_blank">
+                                  <BsEnvelopeOpen />
+                              </a>
+                          </Link>
+                      </li>
+                 </ul>
+            </div>
+            {'\u007B'}
           </CodeItem>
         </InfoContainer>
       </div>

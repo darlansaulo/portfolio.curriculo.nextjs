@@ -51,13 +51,20 @@ export const CodeItem = styled.section`
   align-self: flex-start;
   transition: 1s;
 
+  &:nth-child(3) {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      a {
+       color: #fff;
+      }
+    }
+  }
+
   &:hover {
     filter: brightness(1.8);
   }
 
-  &:last-child {
-    align-self: flex-end;
-  }
   > div {
     margin: 0.2rem 0;
     margin-left: 1rem;
@@ -102,7 +109,11 @@ export const InfoContainer = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+
+  > section:nth-child(even) {
+    align-self: flex-end ;
+  }
 `;
 
 export const TextContainer = styled.section`

@@ -1,12 +1,14 @@
+import { ToastProvider } from 'react-toast-notifications';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../styles/global';
 import theme from '../styles/theme';
-import { ToastProvider } from 'react-toast-notifications';
+
+
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
-      <ToastProvider autoDismiss={false} autoDismissTimeout={1000}> 
+      <ToastProvider autoDismiss={true} autoDismissTimeout={2000}> 
         <Component {...pageProps} />
         <GlobalStyles />
       </ToastProvider>

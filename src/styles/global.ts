@@ -7,6 +7,8 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    
     ::-webkit-scrollbar {
       width: 8px;
       height: 5px;

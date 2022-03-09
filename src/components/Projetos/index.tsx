@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import SectionTitle from '../SectionTitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
@@ -8,10 +9,14 @@ function Projetos() {
       <SectionTitle title="Ultimos projetos"></SectionTitle>
 
       <section>
-        <ProjetoItem />
-        <ProjetoItem />
-        <ProjetoItem />
+        <ProjetoItem title="C.R.U.D" type="Website" slug="https://github.com/darlansaulo/projeto.crud.react" img="/assets/projeto_crud_react.png"/>
+        <ProjetoItem title="Currículo" type="Website" slug="https://github.com/darlansaulo/projeto.curriculo.nextjs" img="/assets/projeto_curriculo_nextjs.png"/>
       </section>
+      <button type='button'>
+        <Link href="/">
+          <a>Voltar ao topo</a>
+        </Link>
+      </button>
     </Container>
   );
 }

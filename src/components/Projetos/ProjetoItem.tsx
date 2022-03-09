@@ -3,33 +3,33 @@ import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai';
 import Image from 'next/image';
 
-export default function ProjetoItem() {
+interface ProjetoProps {
+  title: string;
+  type: string;
+  slug: string;
+  img: string;
+}
 
-  const myLoader = ({ src, width, quality }) => {
-    return `https://www.plctr.com/wp-content/uploads/${src}?w=${width}&q=${
-      quality || 75
-    }`;
-  };
+export default function ProjetoItem({ title, type, slug, img}: ProjetoProps) {
 
   return (
     <ProjetoContainer>
       <section>
         <Image
-          loader={myLoader}
-          src="plc-errors.jpg"
+          src={img}
           className="overlay"
           alt="Imagem projeto"
           layout="fill"
           priority
         />
         <div className="text">
-          <h1>Projeto 01</h1>
-          <h2>- Website </h2>
+          <h1># {title}</h1>
+          <h2>- {type} </h2>
         </div>
       </section>
       <button>
-        <Link href={'/projeto'}>
-          <a>
+        <Link href={slug}>
+          <a target="_blank">
             Ver mais <AiOutlineRightCircle />
           </a>
         </Link>
