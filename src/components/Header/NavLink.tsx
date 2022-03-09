@@ -17,15 +17,15 @@ export default function NavLink({ title, path, flag }: Props) {
 
   function flagAddToast() {
     if (flag === true) {
-      return addToast('EM MANUTENÇÃO!!!', { appearance: 'info' });
+      addToast('EM MANUTENÇÃO!!!', { appearance: 'info' });
     }
+    return addToast;
   }
 
   return (
     <NavLinkContainer isActive={isActive}>
-      <Link href={path}>
-        
-        <button onClick={flagAddToast}>{title}</button>
+      <Link href={path} passHref>
+        <button type='button' onClick={flagAddToast}>{title}</button>
       </Link>
     </NavLinkContainer>
   );

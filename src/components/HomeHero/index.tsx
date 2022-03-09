@@ -11,10 +11,6 @@ import {
 } from './styles';
 
 
-
-
-
-
 function HomeHero() {
   return (
     <Container>
@@ -144,7 +140,6 @@ function HomeHero() {
               Nome: <span className="blue">Web Moderno Completo 2021</span>
             </div>
             <span className="textMargin1">{'\u007D'}</span>
-            <div></div>
             {'\u007D'}
           </CodeItem>
           <CodeItem>

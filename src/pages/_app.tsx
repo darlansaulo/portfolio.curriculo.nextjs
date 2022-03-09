@@ -6,9 +6,12 @@ import theme from '../styles/theme';
 
 
 function MyApp({ Component, pageProps }) {
+
+  const flag = true;
+
   return (
     <ThemeProvider theme={theme}>
-      <ToastProvider autoDismiss={true} autoDismissTimeout={2000}> 
+      <ToastProvider autoDismiss={flag} autoDismissTimeout={2000}> 
         <Component {...pageProps} />
         <GlobalStyles />
       </ToastProvider>

@@ -4,7 +4,7 @@ import HomeHero from '../components/HomeHero';
 import Projetos from '../components/Projetos';
 import { HomeContainer } from '../styles/HomeStyles';
 
-export default function Home() {
+export default function Home(){
   return (
     <HomeContainer>
       <Header />

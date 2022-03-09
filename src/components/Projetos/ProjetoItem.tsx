@@ -1,7 +1,7 @@
-import { ProjetoContainer } from './styles';
 import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai';
 import Image from 'next/image';
+import { ProjetoContainer } from './styles';
 
 interface ProjetoProps {
   title: string;
@@ -27,8 +27,8 @@ export default function ProjetoItem({ title, type, slug, img}: ProjetoProps) {
           <h2>- {type} </h2>
         </div>
       </section>
-      <button>
-        <Link href={slug}>
+      <button type='button'>
+        <Link href={slug} passHref>
           <a target="_blank">
             Ver mais <AiOutlineRightCircle />
           </a>
