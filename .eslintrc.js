@@ -34,6 +34,7 @@ module.exports = {
       'jsx-a11y/anchor-is-valid': 'off',
       'react/require-default-props': 'off',
       'react/jsx-curly-brace-presence': 'off',
-      'react/jsx-no-comment-textnodes': 'off'
+      'react/jsx-no-comment-textnodes': 'off',
+      '@next/next/no-img-element': 'off'
     }
   };

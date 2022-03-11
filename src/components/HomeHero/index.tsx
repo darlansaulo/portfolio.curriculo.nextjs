@@ -1,5 +1,4 @@
 import { BsLinkedin, BsWhatsapp, BsEnvelopeOpen, BsGithub} from 'react-icons/bs';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import {
@@ -15,89 +14,89 @@ function HomeHero() {
   return (
     <Container>
       <ImgContainer>
-        <Image
-          src={'/assets/logo_git.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_git.svg'}
+          alt="img exemplo"
           width="60"
           height="25"
           className="fontClass"
         />
 
-        <Image
-          src={'/assets/logo_github.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_github.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_bootstrap-2.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_bootstrap-2.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_css3-2.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_css3-2.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_nextjs-2.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_nextjs-2.svg'}
+          alt="img exemplo"
           width="60"
           height="25"
           className="fontClass"
         />
 
-        <Image
-          src={'/assets/logo_html5-2.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_html5-2.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
 
-        <Image
-          src={'/assets/logo_reactjs-2.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_reactjs-2.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_tailwindcss-3.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_tailwindcss-3.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_javascript.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_javascript.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_typescript.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_typescript.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_styled-components.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_styled-components.svg'}
+          alt="img exemplo"
           width="60"
           height="40"
           className="fontClass"
         />
-        <Image
-          src={'/assets/logo_npm.svg'}
-          alt="Imagem exemplo"
+        <img
+          src={'/logo_npm.svg'}
+          alt="img exemplo"
           width="60"
           height="25"
           className="fontClass"
