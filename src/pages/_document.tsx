@@ -46,7 +46,12 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        </Head>
+          <script src="/_next/static/chunks/webpack-f0c574df9973d7ef.js"></script>
+          <script src="/_next/static/chunks/framework-e70c6273bfe3f237.js"></script>
+          <script src="/_next/static/chunks/webpack-index-69e216e72025483b.js"></script>
+
+
+         </Head>
         <body>
           <Main />
           <NextScript />
