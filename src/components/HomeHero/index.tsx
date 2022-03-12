@@ -6,18 +6,18 @@ import {
 } from "react-icons/bs";
 import Link from "next/link";
 
-import GitSvg from "../../../public/logo_git.svg";
-import GithubSvg from "../../../public/github-icon-2.svg";
-import Css3Svg from "../../../public/logo_css3-2.svg";
-import BootstrapSvg from "../../../public/logo_bootstrap-2.svg";
-import NextSvg from "../../../public/logo_nextjs-2.svg";
-import HtmlSvg from "../../../public/logo_html5-2.svg";
-import ReactSvg from "../../../public/logo_reactjs-2.svg";
-import TailwindSvg from "../../../public/logo_tailwindcss-3.svg";
-import JsSvg from "../../../public/logo_javascript.svg";
-import TsSvg from "../../../public/logo_typescript.svg";
-import StyledSvg from "../../../public/logo_styled-components.svg";
-import NpmSvg from "../../../public/logo_npm.svg";
+import GitSvg from "../../../public/assets/logo_git.svg";
+import GithubSvg from "../../../public/assets/github-icon-2.svg";
+import Css3Svg from "../../../public/assets/logo_css3-2.svg";
+import BootstrapSvg from "../../../public/assets/logo_bootstrap-2.svg";
+import NextSvg from "../../../public/assets/logo_nextjs-2.svg";
+import HtmlSvg from "../../../public/assets/logo_html5-2.svg";
+import ReactSvg from "../../../public/assets/logo_reactjs-2.svg";
+import TailwindSvg from "../../../public/assets/logo_tailwindcss-3.svg";
+import JsSvg from "../../../public/assets/logo_javascript.svg";
+import TsSvg from "../../../public/assets/logo_typescript.svg";
+import StyledSvg from "../../../public/assets/logo_styled-components.svg";
+import NpmSvg from "../../../public/assets/logo_npm.svg";
 
 import {
   Container,

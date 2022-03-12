@@ -1,10 +1,6 @@
 import { lighten } from 'polished';
 import styled from 'styled-components';
 
-interface NavLinkProps {
-    isActive: boolean;
-}
-
 export const Container = styled.header`
     width: 100%;
     display: flex;
@@ -20,17 +16,17 @@ export const Container = styled.header`
     }
 `;
 
-export const NavLinkContainer = styled.li<NavLinkProps> `
+export const NavLinkContainer = styled.li`
     > button {
         font-size: 1rem;
         border-style: none;
         background-color: ${({ theme }) => theme.background};
         text-transform: uppercase;
-        color: ${ (props)  => props.isActive ? props.theme.primary : props.theme.textHighlight};
+        color: ${({ theme })  => theme.primary};
         transition: 0.5s;
 
         &:hover {
-            color: ${props => props.isActive ? lighten(0.2, props.theme.primary) : lighten(0.2, props.theme.textHighlight)}
+            color: ${({ theme }) => lighten(0.7, theme.textHighlight)}
         }
     }
 `;

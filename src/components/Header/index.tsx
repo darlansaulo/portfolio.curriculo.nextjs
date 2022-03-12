@@ -8,8 +8,8 @@ function Header() {
   return (
     <Container>
       <ul>
-        <NavLink title="Home" path="/" />
-        <NavLink title="Projetos" path="/" flag={flagAux}/> 
+        <NavLink title="Home" />
+        <NavLink title="Projetos" flag={flagAux}/> 
       </ul>
     </Container>
   );
