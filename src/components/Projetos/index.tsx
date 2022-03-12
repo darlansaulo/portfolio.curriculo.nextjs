@@ -12,7 +12,7 @@ function Projetos() {
         <ProjetoItem title="Currículo" type="Website" slug="https://darlansaulo.github.io/projeto.curriculo.nextjs" img="/projeto_curriculo_nextjs.png"/>
       </section>
       <button type='button'>
-        <Link href="/#top">
+        <Link href="/../#top">
           Voltar ao topo
         </Link>
       </button>

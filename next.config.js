@@ -1,9 +1,8 @@
-const withImages = require("next-images");
+const withSvgr = require("next-svgr");
 
-module.exports = withImages({
-  esModule: true,
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
+module.exports = withSvgr({
+    images: {
+        loader: 'akamai',
+        path: '',
+    },
 });

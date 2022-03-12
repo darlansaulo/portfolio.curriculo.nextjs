@@ -7,7 +7,7 @@ import theme from '../styles/theme';
 
 function MyApp({ Component, pageProps }) {
 
-  const flag = true;
+  const flag = false;
 
   return (
     <ThemeProvider theme={theme}>
