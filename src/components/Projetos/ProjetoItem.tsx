@@ -19,8 +19,8 @@ export default function ProjetoItem({ title, type, slug, img}: ProjetoProps) {
           src={img}
           className="overlay"
           alt="Imagem projeto"
-          layout="fill"
-          priority
+          height={450}
+          width={800}
         />
         <div className="text">
           <h1># {title}</h1>
