@@ -11,11 +11,11 @@ function Projetos() {
         <ProjetoItem title="C.R.U.D" type="Website" slug="https://github.com/darlansaulo/projeto.crud.react" img="/assets/projeto_crud_react.png"/>
         <ProjetoItem title="Currículo" type="Website" slug="https://darlansaulo.github.io/projeto.curriculo.nextjs" img="/assets/projeto_curriculo_nextjs.png"/>
       </section>
-      <button type='button'>
+      <div className='button-style'>
         <Link href="/portfolio.curriculo.nextjs/#top">
           Voltar ao topo
         </Link>
-      </button>
+      </div>
     </Container>
   );
 }

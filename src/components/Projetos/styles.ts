@@ -19,7 +19,7 @@ export const Container = styled.section`
     }
   }
 
-  > button {
+  > .button-style {
     background: ${({ theme }) => theme.primary};
     padding: .8rem 3rem;
     border-radius: 0.5rem;
