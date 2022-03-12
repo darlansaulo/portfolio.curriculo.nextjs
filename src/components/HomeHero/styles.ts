@@ -164,22 +164,22 @@ export const ImgContainer = styled.div`
     
   }
 
-  > span:nth-child(7) {
+  > svg:nth-child(7) {
     order: -1;
   }
-  > span:nth-child(5) {
+  > svg:nth-child(5) {
     order: -2;
   }
-  > span:nth-child(10) {
+  > svg:nth-child(10) {
     order: -3;
   }
-  > span:nth-child(9) {
+  > svg:nth-child(9) {
     order: -4;
   }
-  > span:nth-child(6) {
+  > svg:nth-child(6) {
     order: -5;
   }
-  > span:nth-child(4) {
+  > svg:nth-child(4) {
     order: -6;
   }
 `;
