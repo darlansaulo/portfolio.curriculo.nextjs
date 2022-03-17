@@ -1,4 +1,3 @@
-import { BsWindowSidebar } from 'react-icons/bs';
 import SectionTitle from '../SectionTitle';
 import ProjetoItem from './ProjetoItem';
 import { Container } from './styles';
@@ -14,8 +13,8 @@ function Projetos() {
         <ProjetoItem title="C.R.U.D" type="Website" slug="https://github.com/darlansaulo/projeto.crud.react" img="/assets/projeto_crud_react.png"/>
         <ProjetoItem title="Currículo" type="Website" slug="https://darlansaulo.github.io/projeto.curriculo.nextjs" img="/assets/projeto_curriculo_nextjs.png"/>
       </section>
-      <div className='button-style' id="voltarTopo" onClick={voltarTop}>
-        <a>
+      <div className='button-style' id="voltarTopo">
+        <a href="" onClick={voltarTop}>
             Voltar ao topo
         </a>
       </div>
