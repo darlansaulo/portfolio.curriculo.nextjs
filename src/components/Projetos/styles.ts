@@ -41,7 +41,7 @@ export const Container = styled.section`
 
     @media (max-width: 640px) {
       padding: 0.5rem;
-      a {
+      button {
         font-size: 1rem;
       }
     }

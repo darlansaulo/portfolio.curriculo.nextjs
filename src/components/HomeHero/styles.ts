@@ -7,7 +7,6 @@ export const Container = styled.section`
   gap: 2rem;
   align-items: center;
   margin-top: 5rem;
-  margin-bottom: 5rem;
 
   > div {
     flex: 4;
@@ -34,7 +33,7 @@ export const Container = styled.section`
   }
 
   @media (max-width: 640px) {
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-direction: column-reverse;
     > div {
       width: 100%;
@@ -145,7 +144,7 @@ export const TextContainer = styled.section`
   }
   @media (max-width: 400px) {
     h1 {
-      font-size: 1.26rem;
+      font-size: 1.23rem;
       text-align: center;
     }
   }
@@ -185,6 +184,6 @@ export const ImgContainer = styled.div`
   }
 
   @media (max-width: 640px) {
-    margin-top: 1rem;
+    margin-top: 5rem;
   }
 `;

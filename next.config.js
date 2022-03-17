@@ -4,7 +4,7 @@ const withSvgr = require("next-svgr");
 
 module.exports = withSvgr({
 
-    reactStrictMode: true,
+    esModule: true,
 
     assetPrefix: isProd ? '/portfolio.curriculo.nextjs/' : '',
 
