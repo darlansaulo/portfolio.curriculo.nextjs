@@ -34,6 +34,7 @@ export const Container = styled.section`
   }
 
   @media (max-width: 640px) {
+    margin-top: 2rem;
     flex-direction: column-reverse;
     > div {
       width: 100%;
@@ -181,5 +182,9 @@ export const ImgContainer = styled.div`
   }
   > svg:nth-child(4) {
     order: -6;
+  }
+
+  @media (max-width: 640px) {
+    margin-top: 1rem;
   }
 `;

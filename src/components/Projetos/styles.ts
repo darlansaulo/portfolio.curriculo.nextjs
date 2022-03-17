@@ -1,5 +1,5 @@
-import { darken } from 'polished';
-import styled from 'styled-components';
+import { darken } from "polished";
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -21,14 +21,11 @@ export const Container = styled.section`
 
   > .button-style {
     background: ${({ theme }) => theme.primary};
-    padding: .8rem 3rem;
+    padding: 0.8rem 3rem;
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
-
-    &:hover {
-      background: ${({ theme }) => darken(0.05, theme.primary)};
-    }
+    cursor: pointer;
 
     a {
       text-transform: uppercase;
@@ -37,9 +34,15 @@ export const Container = styled.section`
       font-weight: 300;
     }
 
-    @media (max-width: 640px){
-        padding: 0.5rem;
-        
+    &:hover {
+      background: ${({ theme }) => darken(0.05, theme.primary)};
+    }
+
+    @media (max-width: 640px) {
+      padding: 0.5rem;
+      a {
+        font-size: 1rem;
+      }
     }
   }
 `;
@@ -58,7 +61,7 @@ export const ProjetoContainer = styled.div`
       }
 
       .overlay {
-        opacity: 0.70;
+        opacity: 0.7;
       }
     }
 
