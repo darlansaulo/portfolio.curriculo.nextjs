@@ -8,7 +8,7 @@ function Header() {
   return (
     <Container>
       <ul>
-        <NavLink title="Home" path="/portfolio.curriculo.nextjs"/>
+        <NavLink title="Home">
         <NavLink title="Projetos" flag={flagAux}/> 
       </ul>
     </Container>
