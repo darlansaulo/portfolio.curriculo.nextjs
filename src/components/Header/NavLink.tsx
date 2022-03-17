@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useToasts } from 'react-toast-notifications';
 import { NavLinkContainer } from './styles';
 
@@ -20,9 +19,7 @@ export default function NavLink({ title, flag }: Props) {
 
   return (
     <NavLinkContainer>
-      <Link href="" passHref> 
         <button type='button' onClick={flagAddToast}>{title}</button>
-      </Link>
     </NavLinkContainer>
   );
 }

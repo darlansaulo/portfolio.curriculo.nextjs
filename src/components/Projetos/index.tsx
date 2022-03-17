@@ -18,9 +18,9 @@ function Projetos() {
         <ProjetoItem title="Currículo" type="Website" slug="https://darlansaulo.github.io/projeto.curriculo.nextjs" img="/assets/projeto_curriculo_nextjs.png"/>
       </section>
       <div className='button-style' id="voltarTopo">
-        <a href="" onClick={voltarTop}>
+        <button type="button" onClick={voltarTop}>
             Voltar ao topo
-        </a>
+        </button>
       </div>
     </Container>
   );

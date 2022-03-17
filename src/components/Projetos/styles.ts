@@ -26,10 +26,12 @@ export const Container = styled.section`
     border: none;
     transition: 0.5s;
 
-    a {
+    > button {
+      border: none;
+      background-color: transparent;
       text-transform: uppercase;
-      color: #fff;
       font-size: 1.5rem;
+      color: #fff;
       font-weight: 300;
     }
 
