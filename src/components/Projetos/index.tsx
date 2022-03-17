@@ -4,7 +4,11 @@ import { Container } from './styles';
 
 function Projetos() {
 
-  const voltarTop = () => window.scrollTo(0, 0)
+  const voltarTop = () => window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  })
 
   return (
     <Container>

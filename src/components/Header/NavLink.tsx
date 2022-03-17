@@ -6,10 +6,9 @@ import { NavLinkContainer } from './styles';
 interface Props {
   title: string;
   flag?: boolean;
-  path?: string;
 }
 
-export default function NavLink({ title, flag, path }: Props) {
+export default function NavLink({ title, flag }: Props) {
   const { addToast } = useToasts();
 
   function flagAddToast() {
@@ -21,7 +20,7 @@ export default function NavLink({ title, flag, path }: Props) {
 
   return (
     <NavLinkContainer>
-      <Link href={ { pathname: path } } passHref> 
+      <Link href="" passHref> 
         <button type='button' onClick={flagAddToast}>{title}</button>
       </Link>
     </NavLinkContainer>

@@ -21,11 +21,10 @@ export const Container = styled.section`
 
   > .button-style {
     background: ${({ theme }) => theme.primary};
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 0.5rem;
     border: none;
     transition: 0.5s;
-    cursor: pointer;
 
     a {
       text-transform: uppercase;
