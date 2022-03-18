@@ -11,10 +11,10 @@ function Experience() {
           year="2019 ~ 2021 (CLT)"
           title="Analista de Suporte - Mindworks"
           description="Suporte prestado para clientes com estrutura de domínio de rede e home office. Funções realizadas:
-          controle de usuários/grupos para acesso a sistemas e informações ne
-          rede, utilizando a ferramenta Active Directory(AD) da Microsoft,
+          controle de usuários/grupos para acesso a sistemas e informações na
+          rede, utilizando a ferramenta Active Directory(AD) da Microsoft e outros sistemas de acesso,
           suporte com acesso remoto a servidores e clientes para instalações de
-          softwares, configurações e soluções para o windows(7, 10).
+          softwares, configurações de rede e soluções para o windows(7, 10).
           Gerir e atender chamados utilizando ferramentas de Service Desk(Microsoft: Service
           Manager 2016) seguindo SLA em cima da estrutura de atendimento dos clientes, também
           gerir resoluções de atendimento externo, com controle de chamados em

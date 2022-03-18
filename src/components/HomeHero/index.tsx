@@ -81,6 +81,7 @@ function HomeHero() {
               Nome: <span className="blue">Web Moderno Completo 2021</span>
             </div>
             <span className="textMargin1">{"\u007D"}</span>
+            <br />
             {"\u007D"}
           </CodeItem>
           <CodeItem>
